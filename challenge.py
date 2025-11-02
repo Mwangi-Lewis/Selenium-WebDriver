@@ -18,9 +18,9 @@ last_name = driver.find_element(By.NAME, value="lName")
 email = driver.find_element(By.NAME, value="email")
 
 # Fill out the form
-first_name.send_keys("Lewis")
-last_name.send_keys("Ndegwa")
-email.send_keys("SirNdegwa@email.com")
+first_name.send_keys("YOUR FIRSTNAME")
+last_name.send_keys("YOUR LASTNAME")
+email.send_keys("YOUR EMAIL")
 
 # Locate the "Sign Up" button. Then click on it
 submit = driver.find_element(By.CSS_SELECTOR, value="form button")
